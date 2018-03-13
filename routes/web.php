@@ -14,3 +14,28 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+/* auth routes */
+Route::get('/registration', 'Auth\RegistrationController@index')->name('register');
+Route::post('/registration/save', 'Auth\RegistrationController@saveUser')->name('register.save');
+Route::get('/registration/confirm/{token?}', 'Auth\RegistrationController@confirm');
+Route::post('/auth/loginUser', 'Auth\AuthController@loginUser')->name('auth.login');
+Route::get('/auth/loginUser', 'Auth\AuthController@loginUser')->name('auth.login');
+Route::get('/auth/logout', 'Auth\AuthController@logout')->name('auth.logout');
+Route::get('/auth/redirect-auth', 'Auth\AuthController@redirect_auth')->name('auth.redirect');
+
+Route::get('/content', 'Content\ContentController@indexAction');
+
+/*
+$pages =  DB::table('pages')->select(['name'])->get();
+
+if(!empty($pages)) 
+{
+  foreach ($pages as $page)
+  {
+    Route::get($page->name, 'Content\ContentController@indexAction');
+   }
+}
+
+
+*/
