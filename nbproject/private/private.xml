@@ -10,7 +10,15 @@
             <file>file:/D:/OSPanel/domains/sinef.loc/routes/web.php</file>
         </group>
         <group name="1">
+            <file>file:/D:/OSPanel/domains/sinef.loc/app/classes/CategoriesClass.php</file>
+            <file>file:/D:/OSPanel/domains/sinef.loc/resources/views/categories/admin.blade.php</file>
+            <file>file:/D:/OSPanel/domains/sinef.loc/app/Http/Controllers/Categories/AdminController.php</file>
+            <file>file:/D:/OSPanel/domains/sinef.loc/resources/views/categories/form_category.blade.php</file>
+            <file>file:/D:/OSPanel/domains/sinef.loc/resources/views/layouts/admin.blade.php</file>
+            <file>file:/D:/OSPanel/domains/sinef.loc/public/js/categories/categories.js</file>
             <file>file:/D:/OSPanel/domains/sinef.loc/routes/web.php</file>
+            <file>file:/D:/OSPanel/domains/sinef.loc/app/Models/CategoriesModel.php</file>
+            <file>file:/D:/OSPanel/domains/sinef.loc/app/Models/ModelBaseFunction.php</file>
         </group>
     </open-files>
 </project-private>

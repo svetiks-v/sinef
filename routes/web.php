@@ -26,6 +26,17 @@ Route::get('/auth/redirect-auth', 'Auth\AuthController@redirect_auth')->name('au
 
 Route::get('/content', 'Content\ContentController@indexAction');
 
+/**CATEGORIES**/
+Route::get('/admin/categories', 'Categories\AdminController@indexAction')->name('admin.categories');
+Route::post('/admin/categories/get-list', 'Categories\AdminController@getCategoriesListAction')->name('admin.categories.list');
+Route::post('/admin/categories/get-add-edit-form', 'Categories\AdminController@getAddEditFormAction')->name('admin.categories.get-add-edit-form');
+Route::post('/admin/categories/save-form', 'Categories\AdminController@saveCategoryAction')->name('admin.categories.save-form');
+
+
+/**CONTENT**/
+Route::get('/admin/content', 'Content\AdminController@indexAction')->name('admin.content');
+
+
 /*
 $pages =  DB::table('pages')->select(['name'])->get();
 

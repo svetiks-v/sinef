@@ -41,36 +41,3 @@ var open_dialog = function(name, html, close_button, title_window, buttons)
        }) 
     }
 }
-
-/**
- * Диалоговое окно просмотра информации по оферте
- * @param {type} number_offer
- * @returns {undefined}
- */
-var viewOfferDetails = function (number_offer)
-{
-    $.ajax({
-        type: 'POST',
-        url: '/offers/info/' + number_offer,
-        success: function (data) {
-            $('.dialog #info-offer').remove();
-            var buttons = {
-                'Закрыть': function () {
-                    $(this).dialog("close");
-                }
-            };
-            $('<div class="dialog" id="info-offer"></div>').html(data)
-                    .dialog({
-                        autoOpen: false,
-                        title: "Информация по оферте",
-                        modal: true,
-                        closeText: "",
-                        width: 750,
-                        resizable: false,
-                        buttons: buttons
-
-                    }).dialog("open");
-
-        }
-    });
-};
