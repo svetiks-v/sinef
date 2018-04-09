@@ -9,8 +9,8 @@ use App\Http\Controllers\Controller;
 class ContentController extends Controller {
 
 
-    public function indexAction() {
-		dd(5);
+    public function indexAction(Request $request) {
+		dd($request);
     }
 
    

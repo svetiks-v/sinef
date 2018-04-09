@@ -3,22 +3,52 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group name="Group 20180305-03:09:20">
-            <file>file:/D:/OSPanel/domains/sinef.loc/public/css/bitrix_themplate1.css</file>
+            <file>file:/D:/OSPanel/domains/sinef.loc/app/classes/CategoriesClass.php</file>
             <file>file:/D:/OSPanel/domains/sinef.loc/resources/views/welcome.blade.php</file>
-            <file>file:/D:/OSPanel/domains/sinef.loc/public/css/style.css</file>
-            <file>file:/D:/OSPanel/domains/sinef.loc/resources/views/layouts/app.blade.php</file>
+            <file>file:/D:/OSPanel/domains/sinef.loc/public/js/BootstrapAlert.js</file>
             <file>file:/D:/OSPanel/domains/sinef.loc/routes/web.php</file>
+            <file>file:/D:/OSPanel/domains/sinef.loc/public/js/dialog.js</file>
+            <file>file:/D:/OSPanel/domains/sinef.loc/public/js/content/admin_content.js</file>
+            <file>file:/D:/OSPanel/domains/sinef.loc/app/Http/Controllers/Categories/AdminController.php</file>
+            <file>file:/D:/OSPanel/domains/sinef.loc/resources/views/content/admin/add.blade.php</file>
+            <file>file:/D:/OSPanel/domains/sinef.loc/resources/views/categories/form_category.blade.php</file>
+            <file>file:/D:/OSPanel/domains/sinef.loc/app/Http/Controllers/Content/AdminController.php</file>
+            <file>file:/D:/OSPanel/domains/sinef.loc/public/css/bitrix_themplate1.css</file>
+            <file>file:/D:/OSPanel/domains/sinef.loc/app/classes/ContentClass.php</file>
+            <file>file:/D:/OSPanel/domains/sinef.loc/resources/views/layouts/admin.blade.php</file>
+            <file>file:/D:/OSPanel/domains/sinef.loc/public/css/style.css</file>
+            <file>file:/D:/OSPanel/domains/sinef.loc/resources/views/content/admin/form_content.blade.php</file>
+            <file>file:/D:/OSPanel/domains/sinef.loc/public/js/categories/categories.js</file>
+            <file>file:/D:/OSPanel/domains/sinef.loc/app/Http/Controllers/Content/ContentController.php</file>
+            <file>file:/D:/OSPanel/domains/sinef.loc/resources/views/content/admin/index.blade.php</file>
+            <file>file:/D:/OSPanel/domains/sinef.loc/app/Models/CategoriesModel.php</file>
+            <file>file:/D:/OSPanel/domains/sinef.loc/app/Models/ModelBaseFunction.php</file>
         </group>
         <group name="1">
             <file>file:/D:/OSPanel/domains/sinef.loc/app/classes/CategoriesClass.php</file>
             <file>file:/D:/OSPanel/domains/sinef.loc/resources/views/categories/admin.blade.php</file>
-            <file>file:/D:/OSPanel/domains/sinef.loc/app/Http/Controllers/Categories/AdminController.php</file>
-            <file>file:/D:/OSPanel/domains/sinef.loc/resources/views/categories/form_category.blade.php</file>
-            <file>file:/D:/OSPanel/domains/sinef.loc/resources/views/layouts/admin.blade.php</file>
-            <file>file:/D:/OSPanel/domains/sinef.loc/public/js/categories/categories.js</file>
+            <file>file:/D:/OSPanel/domains/sinef.loc/database/migrations/2018_03_28_134411_create_content_table.php</file>
+            <file>file:/D:/OSPanel/domains/sinef.loc/resources/views/layouts/content.blade.php</file>
             <file>file:/D:/OSPanel/domains/sinef.loc/routes/web.php</file>
+            <file>file:/D:/OSPanel/domains/sinef.loc/public/js/content/admin_content.js</file>
+            <file>file:/D:/OSPanel/domains/sinef.loc/app/Http/Controllers/Categories/AdminController.php</file>
+            <file>file:/D:/OSPanel/domains/sinef.loc/resources/views/content/admin/add.blade.php</file>
+            <file>file:/D:/OSPanel/domains/sinef.loc/resources/views/categories/form_category.blade.php</file>
+            <file>file:/D:/OSPanel/domains/sinef.loc/app/Http/Controllers/Content/AdminController.php</file>
+            <file>file:/D:/OSPanel/domains/sinef.loc/resources/views/content/view_inner_page.blade.php</file>
+            <file>file:/D:/OSPanel/domains/sinef.loc/app/classes/ContentClass.php</file>
+            <file>file:/D:/OSPanel/domains/sinef.loc/resources/views/layouts/menu/menu.blade.php</file>
+            <file>file:/D:/OSPanel/domains/sinef.loc/resources/views/content/sidebar.blade.php</file>
+            <file>file:/D:/OSPanel/domains/sinef.loc/resources/views/layouts/admin.blade.php</file>
+            <file>file:/D:/OSPanel/domains/sinef.loc/app/classes/MenuClass.php</file>
+            <file>file:/D:/OSPanel/domains/sinef.loc/public/css/style.css</file>
+            <file>file:/D:/OSPanel/domains/sinef.loc/resources/views/content/admin/form_content.blade.php</file>
+            <file>file:/D:/OSPanel/domains/sinef.loc/app/Models/ContentModel.php</file>
+            <file>file:/D:/OSPanel/domains/sinef.loc/public/js/categories/categories.js</file>
+            <file>file:/D:/OSPanel/domains/sinef.loc/app/Http/Controllers/Content/ContentController.php</file>
             <file>file:/D:/OSPanel/domains/sinef.loc/app/Models/CategoriesModel.php</file>
             <file>file:/D:/OSPanel/domains/sinef.loc/app/Models/ModelBaseFunction.php</file>
+            <file>file:/D:/OSPanel/domains/sinef.loc/app/Models/PageModel.php</file>
         </group>
     </open-files>
 </project-private>

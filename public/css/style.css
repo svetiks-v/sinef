@@ -1,3 +1,7 @@
 .maxwidth-theme{max-width: auto;}
 .ui-dialog{z-index:1000}
 .require_span{font-size: 12px;color:red}
+#content{text-align: justify}
+#content ol{
+    list-style-type: decimal
+}

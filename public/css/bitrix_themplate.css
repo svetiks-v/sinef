@@ -3522,11 +3522,12 @@ textarea.input-group-sm > .input-group-btn > .btn {
   color: #ffffff;
 }
 .breadcrumb {
-  padding: 8px 15px;
-  margin-bottom: 20px;
   list-style: none;
-  background-color: #f5f5f5;
-  border-radius: 4px;
+  font-size:11px;
+  line-height:13px;
+  padding:0;
+  margin:0;
+  background:none
 }
 .breadcrumb > li {
   display: inline-block;
@@ -3539,6 +3540,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .breadcrumb > .active {
   color: #999999;
 }
+.breadcrumb, .breadcrumb a{color:#7b8d99}
 .pagination {
   display: inline-block;
   padding-left: 0;
@@ -8993,6 +8995,15 @@ table.table th {
 .detail .reviews .item .review .icons:before {
   color: #00569c;
 }
+
+
+
+.side-menu{ background: #eff5f7; }
+.side-menu > li > a{ text-decoration: none; position: relative; border-bottom: 1px solid white; color: #666; }
+.side-menu > li:last-child > a{ border-bottom: 0; }
+.side-menu > li.child > a:before{ color: #7b8e9a; position: absolute; font-family: FontAwesome; content: "\f054"; font-size: 11px; right: 15px; }
+.side-menu > li.active > a, .side-menu > li > a:hover, .side-menu > li > a:focus{ color: white; }
+.side-menu > li.active > a:before, .side-menu > li > a:hover:before, .side-menu > li > a:focus:before{ color: white; }
 
 /* End */
 

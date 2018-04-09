@@ -75,7 +75,7 @@ class ModelBaseFunction
     public function getByIdInArray($id = null, $fields = array())
     {
         $result = $this->getById($id, $fields);
-        return $this->convertStdClassToArray($result);
+        return ($result) ? $this->convertStdClassToArray($result) : false;
     }
 
     /**
@@ -111,7 +111,7 @@ class ModelBaseFunction
     {
         $sql = DB::table($this->getNameTable());
         if (!empty($fields)) {
-            if (!is_array($fields)){
+            if (!is_array($fields)) {
                 $sql->select(array($fields));
             } else {
                 $sql->select($fields);
@@ -189,7 +189,6 @@ class ModelBaseFunction
         return ($this->getCountByWhere($where) > 0);
     }
 
-
     /**
      * проверка наличия записи по указанному id
      * @param $id
@@ -198,10 +197,10 @@ class ModelBaseFunction
     public function isItemById($id)
     {
         $id_int = (int) $id;
-        if(empty($id_int)){
+        if (empty($id_int)) {
             return false;
         }
-        
+
         return $this->isItem(['id' => $id_int]);
     }
 
@@ -237,9 +236,8 @@ class ModelBaseFunction
             $where['id'] = $data['id'];
             unset($data['id']);
         }
-        $sql = $this->addWhereInSql($where, 
-                DB::table($this->getNameTable())
-                );
+        $sql = $this->addWhereInSql($where, DB::table($this->getNameTable())
+        );
         return $sql->update($data);
     }
 
@@ -252,7 +250,8 @@ class ModelBaseFunction
     {
         if (!empty($where) && is_array($where)) {
             foreach ($where as $field => $value) {
-                if (is_array($value) and array_key_exists(0, $value) and array_key_exists(1, $value) and array_key_exists(2, $value)) {
+                if (is_array($value) and array_key_exists(0, $value) and array_key_exists(1, $value) and array_key_exists(2,
+                                                                                                                          $value)) {
                     $sql->where($value[0], $value[1], $value[2]);
                 } else {
                     $sql->where($field, $value);
@@ -344,4 +343,5 @@ class ModelBaseFunction
         }
         return false;
     }
+
 }
