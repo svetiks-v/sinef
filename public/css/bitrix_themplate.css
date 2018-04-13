@@ -9005,6 +9005,17 @@ table.table th {
 .side-menu > li.active > a, .side-menu > li > a:hover, .side-menu > li > a:focus{ color: white; }
 .side-menu > li.active > a:before, .side-menu > li > a:hover:before, .side-menu > li > a:focus:before{ color: white; }
 
+.item .title {
+    font-size: 18px;
+    line-height: 27px;
+    margin-bottom: 5px;
+}
+.item .image img {
+    max-height: 100%;
+    max-width: 100%;
+    vertical-align: top;
+    display: inline-block;
+}
 /* End */
 
 

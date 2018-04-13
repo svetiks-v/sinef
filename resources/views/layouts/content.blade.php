@@ -106,7 +106,17 @@
                         </div>
                         <div class="row">
                             <div class="col-md-12">
-                                <ul class="breadcrumb" id="navigation"><li itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/" title="Главная" itemprop="url"><span itemprop="title">Главная</span></a></li><li class="active" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a itemprop="url" style="display:none;" href="https://allcorp.aspro-demo.ru/company/"></a><span itemprop="title">О компании</span></li></ul>									</div>
+                                <ul class="breadcrumb" id="navigation">
+                                    <li itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+                                        <a href="/" title="Главная" itemprop="url">
+                                            <span itemprop="title">Главная</span>
+                                        </a>
+                                    </li>
+                                    <li class="active" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+                                        <a itemprop="url" style="display:none;" href="https://allcorp.aspro-demo.ru/company/"></a>
+                                        <span itemprop="title">О компании</span>
+                                    </li>
+                                </ul>									</div>
                         </div>
                     </div>
                 </section>
