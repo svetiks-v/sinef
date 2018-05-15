@@ -94,7 +94,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="nav-main-collapse collapse">
+                @include('layouts.menu.menu');
                     <div class="container maxwidth-theme">
                         <div class="row">
                             <div class="col-md-12">
